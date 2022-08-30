@@ -1,0 +1,104 @@
+.container {
+    background-image: url(../images/spider-man-miles-morales.png);
+    background-repeat: no-repeat;
+    background-position: right -30rem top;
+}
+
+@media (min-width: 1230px) {
+    .container {    
+        background-size: cover;
+        background-position: center;
+    }
+}   
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    background: rgba(29, 29, 29, 0.5);
+}
+
+.trailer {
+    height: 80vh;
+}
+
+.nav-social-media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background: rgba(29, 29, 29, 0.63);
+}
+
+.nav-social-media__list-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 37px;
+}
+
+@media (min-width: 1230px) {
+    .nav-social-media{
+        position: absolute;
+        top: 100px;
+        height: calc(100vh - 100px);
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        background: rgba(29, 29, 29, 0.63);
+        width: 10rem;
+    } 
+
+    .nav-social-media__list-container {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 37px;
+    }
+}
+
+.modal-container {
+    display: none;
+}
+
+.modal-container__wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    gap: 1rem;
+}
+
+.modal-container__Trailer {
+    width: 100%;
+}
+
+.modal-container__exit{
+    align-self: flex-end;
+    width: 3rem;
+    cursor: pointer;
+}
+
+@media (min-width: 1230px) {
+    .modal-container {
+        display: none;
+    }
+    
+    .modal-container__wrapper {
+        width: 60%;
+    }
+    
+    .modal-container__Trailer {
+        width: 100%;
+    }
+    
+    .modal-container__exit{
+        width: 5rem;
+    }
+}

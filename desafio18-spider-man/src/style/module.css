@@ -1,0 +1,228 @@
+
+.nav-menu__logo-marvel-container {
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu__logo-marvel {
+    width: 65%;
+}
+
+.nav-menu__logo-spider-container {
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu__logo-spider {
+    width: 35%;
+}
+
+.nav-menu__hamburguer-container {
+    width: 10rem;
+    cursor: pointer;
+}
+
+.nav-menu__hamburguer {
+    display: block;
+}
+
+.nav-menu__bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+.nav-menu__nav-list {
+    cursor: pointer;
+    padding: .5rem;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.nav-menu__nav-list-container {
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    top: 100px;
+    width: 100%;
+    height: 0;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 400;
+    background: rgba(29, 29, 29, 0.5);
+    transition: 0.4s;
+}
+
+@media  (min-width: 1230px) { 
+    .nav-menu__hamburguer-container {
+        display: none;
+    }
+
+    .nav-menu__logo-marvel-container {
+        width: 80rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .nav-menu__logo-marvel {
+        width: 15%;
+    }
+    
+    .nav-menu__logo-spider-container {
+        width: 50rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .nav-menu__logo-spider {
+        width: 12%;
+    }
+
+    .nav-menu__nav-list-container {
+        position: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 80rem;
+        height: 100px;
+        color: white;
+        font-size: 3rem;
+        font-weight: 400;
+        background: rgba(29, 29, 29, 0.5);
+        transition: 0.4s;
+    }
+    
+    .nav-menu__nav-list {
+        padding: 3rem;
+        opacity: 1;
+    }
+    
+ }
+
+.trailer__logo-spider-man-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 55rem;
+    width: 100%;
+}
+
+.trailer__logo-spider-man {
+    width: 35rem;
+}
+
+.trailer__button { 
+    display: block;
+    margin-top: 5rem;
+    width: 30.5rem;
+    height: 6.5rem;
+    background: #1D1D1D;
+    border: 1.78286px solid #EC111A;
+    color: #F9F9F9;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+
+@media (min-width: 1230px) {
+    .trailer__logo-spider-man-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20rem;
+        height: 70rem;
+        width: 100%;
+    }
+    
+    .trailer__logo-spider-man {
+        width: 80rem;
+    }
+}
+
+.nav-social-media__perfil-container {
+    width: 10rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-social-media__perfil {
+    width: 50%;
+}
+
+.nav-social-media__list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-social-media__instagram,
+.nav-social-media__facebook,
+.nav-social-media__twitter {
+    width: 3rem;
+    cursor: pointer;
+    
+}
+
+.nav-social-media__search-container {
+    width: 10rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-social-media__search {
+    width: 50%;
+}
+
+@media  (min-width: 1230px) {
+    .nav-social-media__perfil-container {
+        position: absolute;
+        top: -90px;
+        width: 10rem;
+    }
+
+    .nav-social-media__perfil {
+        width: 7rem;
+    }
+
+    .nav-social-media__list-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 7rem;
+        gap: 7rem;
+    }
+    
+    .nav-social-media__instagram,
+    .nav-social-media__facebook,
+    .nav-social-media__twitter {
+        width: 5rem;
+    }
+    
+    .nav-social-media__search-container {
+        width: 10rem;
+        margin-bottom: 5rem;
+    }
+
+    .nav-social-media__search {
+        width: 5rem;
+    }
+    
+}

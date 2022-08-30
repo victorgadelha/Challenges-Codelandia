@@ -1,0 +1,23 @@
+.nav-menu__hamburguer-container.active .nav-menu__bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.nav-menu__hamburguer-container.active .nav-menu__bar:nth-child(2) {
+    opacity: 0;
+}
+
+.nav-menu__hamburguer-container.active .nav-menu__bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+.nav-menu__nav-list-container.active {
+    height: 7rem
+}
+
+.nav-menu__nav-list.active {
+    opacity: 1;
+}
+
+.modal-container.hide {
+    display: block;
+}

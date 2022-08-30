@@ -1,0 +1,30 @@
+
+@import url(layout.css);
+@import url(module.css);
+@import url(state.css);
+@import url(theme.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    font-family: 'Sora', sans-serif;
+    overflow: hidden;
+}
