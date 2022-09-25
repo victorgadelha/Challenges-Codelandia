@@ -1,0 +1,39 @@
+@import url(module.css);
+@import url(layout.css);
+@import url(state.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --text-font:'Open Sans', sans-serif;
+    --text-color: #F9F9F9;
+    --btn-text-color: #181818;
+
+
+    --btn-color: #FFA634;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+}

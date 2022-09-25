@@ -5,29 +5,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/base.css">
+    <script src="javascript/script.js" defer></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
     <title>Challenge 17 - Kenai</title>
 </head>
 <body>
     <div class="container">
         <header class="menu">
-            <nav class="menu_navigation">
+            <nav class="menu__navigation">
                 <a href="#" class="menu_logo">KENAI</a>
                 <div class="menu_hamburguer">
-                    <span class="menu_bar"></span>
-                    <span class="menu_bar"></span>
-                    <span class="menu_bar"></span>
+                    <span class="menu__bar"></span>
+                    <span class="menu__bar"></span>
+                    <span class="menu__bar"></span>
                 </div>
             </nav>
         </header>
         <main class="content">
-            <h1 class="content_genre">Ação</h1>
-            <ul class="content_rating">
-                <li class="content_star"><img src="images/Star 2.png" alt=""></li>
-                <li class="content_star"><img src="images/Star 2.png" alt=""></li>
-                <li class="content_star"><img src="images/Star 2.png" alt=""></li>
-                <li class="content_star"><img src="images/Star 2.png" alt=""></li>
-                <li class="content_star"><img src="images/Star 2.png" alt=""></li>
-            </ul>
+            <h2 class="content__genre">Ação</h2>
+            <div class="content__info-container">
+                <ul class="content__rating">
+                    <li class="content__star-container">
+                        <img class="content__star-img" src="images/Star 2.png" alt="star">
+                    </li>
+                    <li class="content__star-container">
+                        <img class="content__star-img" src="images/Star 2.png" alt="star">
+                    </li>
+                    <li class="content__star-container">
+                        <img class="content__star-img" src="images/Star 2.png" alt="star">
+                    </li>
+                    <li class="content__star-container">
+                        <img class="content__star-img" src="images/Star 2.png" alt="star">
+                    </li>
+                    <li class="content__star-container">
+                        <img class="content__star-img" src="images/Star 2.png" alt="star">
+                    </li>
+                </ul>
+            <span class="content__watch-container">
+                <img class="content__watch-img" src="images/Time Circle.png" alt="">
+            </span>
+            <span class="content__time">
+                <h5 class="content__time">1h 57m</h5>
+            </span>
+        </div>
+        <div class="content__description-container">
+            <h1 class="content__title">
+                BATMAN
+            </h1>
+            <P class="content__paragraph">
+            Lorem ipsum dolor sit,
+            amet consectetur
+            adipisicing elit.
+            Voluptatibus, provident molestiae
+            voluptatum dolor minus eveniet
+            architecto sapiente.
+            </P>
+        </div>
+        <button class="content__btn">
+            ASSISTIR AGORA
+        </button>
+        <h2 class="content__carousel-title">
+            POPULARES
+        </h2>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide shang-chi">
+                <h3 class="swiper__title">Shang-Chi</h3>
+              </div>
+              <div class="swiper-slide wisa-dragon">
+                <h3 class="swiper__title">Shang-Chi</h3>
+              </div>
+              <div class="swiper-slide loki">
+                <h3 class="swiper__title">Shang-Chi</h3>
+              </div>
+              <div class="swiper-slide spider-man">
+                <h3 class="swiper__title">Shang-Chi</h3>
+              </div>
+            </div>
+          </div>
+        <!--<div class="content__carousel-container">
+            <div class="content__carousel shang-chi">
+            
+            </div>
+            <div class="content__carousel wisa-dragon">
+            
+            </div>
+            <div class="content__carousel loki">
+            
+            </div>
+        </div>-->
         </main>
     </div>
 </body>

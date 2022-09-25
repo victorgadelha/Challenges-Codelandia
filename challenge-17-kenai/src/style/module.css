@@ -1,0 +1,111 @@
+.content__info-container {
+    display: flex;
+    align-items: center;
+}
+
+.content__rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__star-container:not(first-child) {
+    width: 1.9rem;
+    margin-left: .6rem;
+}
+
+.content__watch-container {
+    display: block;
+    width: 2rem;
+    margin-left: 2.8rem;
+}
+
+.content__watch-img {
+    width: 100%;
+}
+
+.content__time {
+    color: var(--text-color);
+    margin-left: .5rem;
+    font-size: 1.4rem;
+}
+
+.content__description-container {
+    margin-left: 2.4rem;
+}
+
+.content__title {
+    color: var(--text-color);
+    font-family: var(--text-font);
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+.content__paragraph {
+    color: var(--text-color);
+    font-family: var(--text-font);
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 1.6rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.content__btn {
+    color: var(--btn-text-color);
+    background: var(--btn-color);
+    font-family: var(--text-font);
+    font-weight: 700;
+    font-size: 2.4rem;
+    width: 28.6rem;
+    height: 5.6rem;
+    margin-top: 3.2rem;
+    margin-left: 2.4rem;
+}
+    
+.content__carousel-title {
+    color: var(--text-color);
+    margin-left: 2.4rem;
+    margin-top: 5.6rem;
+    font-family: var(--text-font);
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+
+.swiper {
+    width: 50rem;
+    height: 60rem;
+}
+
+.swiper-slide {
+    margin-top: 3rem;
+    margin-left: 2.4rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.swiper__title {
+    color: var(--text-color);
+    font-family: var(--text-font);
+    font-weight: 600;
+    font-size: 1.1.5rem;
+    align-self: end;
+    justify-self: end;
+}
+
+.shang-chi {
+    background-image: url(../images/shang-chi.svg);
+}
+
+
+.wisa-dragon {
+    background-image: url(../images/wisa-dragon.svg);
+}
+
+.loki {
+    background-image: url(../images/loki.svg)
+}
+
+.spider-man {
+    background-image: url(../images/spider-man.svg)
+}
